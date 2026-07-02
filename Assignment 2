@@ -1,0 +1,84 @@
+question 1
+
+for i in range(1, 11):
+    print(i)
+
+question 2
+
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+question 3
+
+for i in range(5):
+    print("Happy Birthday!")
+
+question 4
+
+n = int(input(6))
+
+print("The first", n, "terms of the series are:")
+
+for i in range(1, n + 1):
+    print(i * i, end=" ")
+
+question 5
+
+number = int(input(5))
+
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)
+
+question 6
+
+n = int(input(7))
+
+for i in range(1, n + 1):
+    if i % 2 != 0:
+        print(i)
+
+question 7
+
+number = 20
+
+while number >= 1:
+    print(number)
+    number = number - 1
+
+question 8
+
+n = int(input(12))
+
+number = 1
+
+while number <= n:
+    print(number)
+    number = number + 1
+
+question 9
+
+total = 0
+count = 1
+
+while count <= 5:
+    number = int(input(10))
+    total = total + number
+    count = count + 1
+
+print("The final running total is:", total)
+
+question 10
+
+clean_countries = ["Bangladesh", "India", "Pakistan", "China"]
+
+while True:
+    country = input("China")
+
+    if country in clean_countries:
+        print(country, "is in clean countries list")
+        break
+
+    else:
+        print("Country not found. Enter another country.")
+
