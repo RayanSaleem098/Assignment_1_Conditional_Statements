@@ -1,0 +1,71 @@
+print("Name:\tRayan")
+print("Father Name:\tSaleem Ahmed")
+print("Date of Birth:\t06-09-2009")
+
+print("My Name is" , "Rayan Saleem")
+print("I am" , 16, "16.")
+print("I live in", "Karachi")
+print("I am studying", "Intermediate")
+
+a = 10
+b = 5
+
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
+print(a // b)
+
+
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+
+c = 10
+c += 5
+print(c)
+
+c -= 2
+print(c)
+
+
+print(a > b and b < a)
+print(a < b or b < a)
+print(not(a < b))
+
+
+list1 = [10, 20, 30]
+print(10 in list1)
+print(40 not in list1)
+
+
+x = list1
+y = [10, 20, 30]
+print(x is list1)
+print(y is list1)
+print(y is not list1
+
+english = 80
+islamiat = 85
+maths = 90
+
+total_marks = 300
+
+obtained_marks = english + islamiat + maths
+
+percentage = (255 / 300) * 100
+
+print("English Marks =", 80)
+print("Islamiat Marks =", 85)
+print("Maths Marks =", maths)
+print("Obtained Marks =", 255)
+print("Total Marks =", 300)
+print("Percentage =", percentage, "%")
+
